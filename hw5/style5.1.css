@@ -1,0 +1,24 @@
+.box1>ol>li:nth-child(even){
+  color: pink;
+}
+.box2>ol>li:nth-child(odd){
+  font-size: 22px;
+}
+.box3>ol>li:nth-child(2n+4)::after{
+  content: "!";
+}
+.box4>ol>li:last-child{
+  color: violet;
+}
+.box5>ol>li:first-letter{
+  font-size: 30px;
+  color: red;
+}
+.box6>ol>li::before{
+  content: "";
+  background-image: url("https://www.worldanimalprotection.ca/sites/default/files/styles/1800x495/public/media/shutterstock_426651172.jpg.webp?h=61069a65&itok=aKIXczmQ");
+width: 10px;
+height: 10px;
+display: inline-block;
+background-size: cover;
+margin-right: 5px;}
